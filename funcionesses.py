@@ -13,3 +13,7 @@ def almacenar_datos(p_personas):
     with open('nombres_apellidos.csv','w',newline='') as archivo:
         escritor = csv.writer(archivo)
         escritor.writerows(p_personas)
+def personas_edades(p_edades):
+    with open('lista_edade.csv','w',newline='') as archivo:
+        escritor = csv.writer(archivo)
+        escritor.writerows(p_edades)
