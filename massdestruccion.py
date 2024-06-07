@@ -9,6 +9,7 @@ while True:
     edad=int(input("Ingrese edad:"))
     persona=[nombre,apellido,edad]
     personas.append(persona)
+    
     pap=input("Quiere agregar otra persona?: ").lower()
     if pap =='no':
         print("Chao papu :,v")
